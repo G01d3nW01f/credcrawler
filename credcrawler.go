@@ -49,7 +49,7 @@ func fileContainsKeywords(filepath string, keywords []string) bool {
 }
 
 func main() {
-	directory := "/" // 検索を開始するディレクトリ
+	directory := "/" 
 	filenames := []string{
 		".env",
 		"config.json",
